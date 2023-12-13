@@ -40,14 +40,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						animations = {
-							Scene = {
-								params = {
-									id = "asset/laaiikklps/box/Scene/jay_mesh_laaiikklps_door01Anim.ani",
-								},
-								type = "FILE_REF",
-							},
-						},
+
 						materials = { "vehicle/waggon/laaiikklps/Laaiikklps_vw.mtl", },
 						mesh = "asset/laaiikklps/box/jay_mesh_laaiikklps_door01Anim_lod0.msh",
 						name = "jay_mesh_laaiikklps_door01Anim",

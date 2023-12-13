@@ -7,12 +7,18 @@ return {
 		name = _("mod_name"),
 		description = _("mod_desc"),
 		authors = {
-		    {
+			{
+				name = 'jay_',
+				role = 'CREATOR',
+				text = 'Modell',
+				tfnetId = 28954,
+			},
+					    {
 		        name = "ModWerkstatt",
 		        role = "CREATOR",
-		    },
+		    },  
 		},
-		tags = { "europe", "waggon", "taschenwagen", "deutschland", "germany", "UIC", "gueterwagen", "db", "hupac", "containerwagen" },
+		tags = { "europe", "waggon", "deutschland", "germany", "gueterwagen", "db", "ATG", "Touax" },
 		tfnetId = { },
 		minGameVersion = 0,
 		dependencies = { },

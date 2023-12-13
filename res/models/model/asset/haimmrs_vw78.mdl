@@ -17,7 +17,6 @@ return {
 				children = {
 					{
 						children = {
-
 							{
 								materials = { "vehicle/waggon/haimmrs/Haimmrs_vw78.mtl", },
 								mesh = "vehicle/waggon/haimmrs/jay_mesh_haimmrs_untersatz_lod0.msh",
@@ -407,7 +406,6 @@ return {
 				children = {
 					{
 						children = {
-
 							{
 								materials = { "vehicle/waggon/haimmrs/Haimmrs_vw78.mtl", },
 								mesh = "vehicle/waggon/haimmrs/jay_mesh_haimmrs_untersatz_lod1.msh",

@@ -22,11 +22,10 @@ local model_icons = {
 						"ui/models_20/vehicle/waggon/laaiikklps/laaiikklps_twa@2x.tga",
 						"ui/models_20/vehicle/waggon/laaiikklps/laaiikklps_twaAlt@2x.tga",
 						"ui/models_20/vehicle/waggon/laaiikklps/laaiikklps_vw@2x.tga",
-						"ui/models_20/vehicle/waggon/laaiikklps/laaiikklps_twa@2x.tga",
-						"ui/models_20/vehicle/waggon/laaiikklps/laaiikklps_twaAlt@2x.tga",
-						"ui/models_20/vehicle/waggon/laaiikklps/laaiikklps_vw@2x.tga",
 						"ui/models_20/vehicle/waggon/hbillnsGB/hbbillnsGB_touax@2x.tga",
 						"ui/models_20/vehicle/waggon/hccrrs5870/hccrrs5870@2x.tga",
+						"ui/models_20/vehicle/waggon/hccrrs5870/hccrrs5870_dr@2x.tga",
+						"ui/models_20/vehicle/waggon/hccrrs5870/hccrrs5870_dr2@2x.tga",
 						
 					}
 local model_values = {
@@ -48,11 +47,10 @@ local model_values = {
 						"asset/laaiikklps_twa.mdl",
 						"asset/laaiikklps_twaAlt.mdl",
 						"asset/laaiikklps_vw.mdl",
-						"asset/box/laaiikklps_box_twa.mdl",
-						"asset/box/laaiikklps_box_twaAlt.mdl",
-						"asset/box/laaiikklps_box_vw.mdl",
 						"asset/hbbillnsGB_touax.mdl",
 						"asset/hccrrs5870.mdl",
+						"asset/hccrrs5870_dr.mdl",
+						"asset/hccrrs5870_dr2.mdl",
 					}
 local assetmodel = ParamBuilder.IconButton("type_param", _("vehicle"), model_icons, model_values, 1, _("jrm_param_type_tooltip") )
 
