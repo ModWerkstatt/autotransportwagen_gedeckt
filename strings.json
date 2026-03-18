@@ -13,6 +13,7 @@
 		"hbbinsGB_desc" : "The Hbi(ll)ns from Touax were specially developed to transport lattice box pallets with a minimum internal height of 3,000 mm. They are manufactured in Poland at Greenbrier Europe's Wagony Świdnica plant, and in cooperation with Volkswagen.",
 		"hccrrs5870_desc" : "Der Hbi(ll)ns von Touax wurden speziell entwickelt, um Gitterboxpaletten mit einer Mindest-Innenhöhe von 3.000 mm zu transportieren. Die Herstellung erfolgt in Polen in Greenbrier Europe's Wagony Świdnica Werk, und in Zusammenarbeit mit Volkswagen.",
 		"hccrrs328_desc" : "Der Hbi(ll)ns von Touax wurden speziell entwickelt, um Gitterboxpaletten mit einer Mindest-Innenhöhe von 3.000 mm zu transportieren. Die Herstellung erfolgt in Polen in Greenbrier Europe's Wagony Świdnica Werk, und in Zusammenarbeit mit Volkswagen.",	
+		"hccrrs330_desc" : "DB AG took over wagons that had been parked in 2008 and handed them over to the DB Group's Autotransportlogistic GmbH (ATG), including pre-series wagons Hccrrs 331 from 1998 and series wagons Hccrrs 332 from 2000. An overhaul planned for 2010 was not carried out; instead, the wagons were parked in Lindau-Reutin, Mühldorf, Nuremberg and Würzburg. Expresswagons took them over in 2015 and put them into long-term use for DB Schenker Rail.",
 		
 		"offset x-axis": "Offset x-axis",
 		"vehicle": "Vehicle",
@@ -38,6 +39,7 @@
 		"hbbinsGB_desc" : "Der Hbi(ll)ns von Touax wurden speziell entwickelt, um Gitterboxpaletten mit einer Mindest-Innenhöhe von 3.000 mm zu transportieren. Die Herstellung erfolgt in Polen in Greenbrier Europe's Wagony Świdnica Werk, und in Zusammenarbeit mit Volkswagen.",
 		"hccrrs5870_desc" : "Der Hbi(ll)ns von Touax wurden speziell entwickelt, um Gitterboxpaletten mit einer Mindest-Innenhöhe von 3.000 mm zu transportieren. Die Herstellung erfolgt in Polen in Greenbrier Europe's Wagony Świdnica Werk, und in Zusammenarbeit mit Volkswagen.",
 		"hccrrs328_desc" : "Der Hbi(ll)ns von Touax wurden speziell entwickelt, um Gitterboxpaletten mit einer Mindest-Innenhöhe von 3.000 mm zu transportieren. Die Herstellung erfolgt in Polen in Greenbrier Europe's Wagony Świdnica Werk, und in Zusammenarbeit mit Volkswagen.",	
+		"hccrrs330_desc" : "Die DB AG übernahm 2008 abgestellte Waggons, übergab sie an die Autotransportlogistic GmbH (ATG) des DB-Konzerns, darunter Vorserienwagen Hccrrs 331 von 1998 und Serienwagen Hccrrs 332 ab 2000. Eine für 2010 geplante Revision wurde nicht durchgeführt; stattdessen wurden die Waggons in Lindau-Reutin, Mühldorf, Nürnberg und Würzburg abgestellt. Expresswagons übernahm sie 2015 und setzte sie langfristig für DB Schenker Rail ein.",	
 	
 		"offset x-axis": "Offset x-Achse",
 		"vehicle": "Fahrzeug",

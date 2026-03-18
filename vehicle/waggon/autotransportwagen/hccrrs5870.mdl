@@ -979,7 +979,7 @@ return {
 			},
 			description = { 
 				description = _("hccrrs5870_desc"),
-				name = _("Hccrrs 5870 (ARS Altmann) [2013]"),
+				name = _("Hccrrs 5870 ARS Altmann"),
 			},
 			emissions = { 
 				noise = { 

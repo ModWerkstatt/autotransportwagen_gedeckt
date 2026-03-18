@@ -1039,7 +1039,7 @@ return {
 			},
 			description = { 
 				description = _("hccrrs328_desc"),
-				name = _("Hccrrs 328 (DB Schenker) [2013]"),
+				name = _("Hccrrs 328 DB Schenker"),
 			},
 			emissions = { 
 				noise = { 

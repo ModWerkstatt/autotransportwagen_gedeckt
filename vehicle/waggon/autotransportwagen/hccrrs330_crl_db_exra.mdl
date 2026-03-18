@@ -1003,7 +1003,7 @@ return {
 			},
 			description = { 
 				description = _("hccrrs330_desc"),
-				name = _("Hccrrs330 (DB Schenker/Express Wagons) [2015]"),
+				name = _("Hccrrs330 DB Schenker/Express Wagons"),
 			},
 			emissions = { 
 				noise = { 

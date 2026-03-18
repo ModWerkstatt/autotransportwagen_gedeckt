@@ -1368,8 +1368,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("Haimmrs_desc"),
-				name = _("Haimmrs (VW/Audi)  [1989]"),
+				description = _("haimmrs_desc"),
+				name = _("Haimmrs VW/Audi"),
 			},
 			emissions = { 
 				noise = { 

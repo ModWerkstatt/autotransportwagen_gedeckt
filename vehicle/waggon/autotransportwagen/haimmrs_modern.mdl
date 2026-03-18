@@ -1368,8 +1368,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("Haimmrs_desc"),
-				name = _("Haimmrs (Volkswagen AG) [2007]"),
+				description = _("haimmrs_desc"),
+				name = _("Haimmrs Volkswagen AG"),
 			},
 			emissions = { 
 				noise = { 

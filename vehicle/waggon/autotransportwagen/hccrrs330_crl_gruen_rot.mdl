@@ -1003,7 +1003,7 @@ return {
 			},
 			description = { 
 				description = _("hccrrs330_desc"),
-				name = _("Hccrrs330 (Car Rail Log.) [1998]"),
+				name = _("Hccrrs330 Car Rail Log."),
 			},
 			emissions = { 
 				noise = { 

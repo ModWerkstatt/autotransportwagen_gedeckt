@@ -1003,7 +1003,7 @@ return {
 			},
 			description = { 
 				description = _("hccrrs330_desc"),
-				name = _("Hccrrs330 (DB/TWA) [2016]"),
+				name = _("Hccrrs330 DB/TWA"),
 			},
 			emissions = { 
 				noise = { 

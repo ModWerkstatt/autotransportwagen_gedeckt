@@ -776,7 +776,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				name = _("Habbiks 340 (Opel-GM) [1973]"),
+				description = _("habbiks340_desc"),
+				name = _("Habbiks 340 Opel-GM"),
 			},
 			emissions = { 
 				noise = { 

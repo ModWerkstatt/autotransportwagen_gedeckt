@@ -642,8 +642,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("hbbinsGB_desc"),
-				name = _("Hbbins (Touax) [2014]"),
+				description = _("hbbins_gb_desc"),
+				name = _("Hbbins Touax"),
 			},
 			emissions = { 
 				noise = { 
