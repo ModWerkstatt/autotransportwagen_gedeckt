@@ -1,0 +1,1490 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 12.8948078155517578125, 1.53322184085845947265625, 4.480507373809814453125, },
+			bbMin = { -12.8948078155517578125, -1.53322184085845947265625, -0.0335949361324310302734375, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 7.18132686614990234375, 1.53322184085845947265625, 2.2570512294769287109375, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.47, -0.82, 1.56, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.47, 0.82, 1.56, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod0.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod0.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kleineStreben_lod0.msh",
+									name = "jay_mesh_haimmrs_kleineStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontAdd_lod0.msh",
+									name = "jay_mesh_haimmrs_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontStreben_lod0.msh",
+									name = "jay_mesh_haimmrs_frontStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod0.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod0.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_seilhaken_lod0.msh",
+									name = "jay_mesh_haimmrs_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kegp_lod0.msh",
+									name = "jay_mesh_haimmrs_kegp",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_puffer_lod0.msh",
+									name = "jay_mesh_haimmrs_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kupplung_lod0.msh",
+									name = "jay_mesh_haimmrs_kupplung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_buhne_lod0.msh",
+									name = "jay_mesh_haimmrs_buhne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bremse_lod0.msh",
+									name = "jay_mesh_haimmrs_bremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_zumFesthalten_lod0.msh",
+									name = "jay_mesh_haimmrs_zumFesthalten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_tritte_lod0.msh",
+									name = "jay_mesh_haimmrs_tritte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod0.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitte_lod0.msh",
+									name = "jay_mesh_haimmrs_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitteStangen_lod0.msh",
+									name = "jay_mesh_haimmrs_mitteStangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod0.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod0.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod0.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod0.msh",
+											name = "a1",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_gestell_lod0.msh",
+											name = "bandion_mesh_habikks340_gestell",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod0.msh",
+											name = "a2",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0500000007450580596923828125, 1, },
+								},
+							},
+							name = "Wagen 1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod0.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "Mitte",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 9.63000011444091796875, 0, 0.0500000007450580596923828125, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.28, -0.74, 1.33, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.28, 0.74, 1.33, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod0.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod0.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kleineStreben_lod0.msh",
+									name = "jay_mesh_haimmrs_kleineStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontAdd_lod0.msh",
+									name = "jay_mesh_haimmrs_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontStreben_lod0.msh",
+									name = "jay_mesh_haimmrs_frontStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod0.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod0.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_seilhaken_lod0.msh",
+									name = "jay_mesh_haimmrs_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kegp_lod0.msh",
+									name = "jay_mesh_haimmrs_kegp",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_puffer_lod0.msh",
+									name = "jay_mesh_haimmrs_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kupplung_lod0.msh",
+									name = "jay_mesh_haimmrs_kupplung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod0.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitte_lod0.msh",
+									name = "jay_mesh_haimmrs_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitteStangen_lod0.msh",
+									name = "jay_mesh_haimmrs_mitteStangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod0.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod0.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod0.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_anderesEnde_lod0.msh",
+									name = "jay_mesh_haimmrs_anderesEnde",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod0.msh",
+											name = "a5",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_gestell_lod0.msh",
+											name = "bandion_mesh_habikks340_gestell",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod0.msh",
+											name = "a6",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0199999995529651641845703125, 1, },
+								},
+							},
+							name = "Wagen 2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.02999999932944774627685546875, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod1.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod1.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontAdd_lod1.msh",
+									name = "jay_mesh_haimmrs_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontStreben_lod1.msh",
+									name = "jay_mesh_haimmrs_frontStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod1.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod1.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_seilhaken_lod1.msh",
+									name = "jay_mesh_haimmrs_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kegp_lod1.msh",
+									name = "jay_mesh_haimmrs_kegp",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_puffer_lod1.msh",
+									name = "jay_mesh_haimmrs_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_buhne_lod1.msh",
+									name = "jay_mesh_haimmrs_buhne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_zumFesthalten_lod1.msh",
+									name = "jay_mesh_haimmrs_zumFesthalten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_tritte_lod1.msh",
+									name = "jay_mesh_haimmrs_tritte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod1.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitte_lod1.msh",
+									name = "jay_mesh_haimmrs_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod1.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod1.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod1.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod1.msh",
+											name = "a1",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_gestell_lod1.msh",
+											name = "bandion_mesh_habikks340_gestell",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod1.msh",
+											name = "a2",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0500000007450580596923828125, 1, },
+								},
+							},
+							name = "Wagen 1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod1.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "Mitte",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 9.63000011444091796875, 0, 0.0500000007450580596923828125, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod1.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod1.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontAdd_lod1.msh",
+									name = "jay_mesh_haimmrs_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontStreben_lod1.msh",
+									name = "jay_mesh_haimmrs_frontStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod1.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod1.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_seilhaken_lod1.msh",
+									name = "jay_mesh_haimmrs_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_kegp_lod1.msh",
+									name = "jay_mesh_haimmrs_kegp",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_puffer_lod1.msh",
+									name = "jay_mesh_haimmrs_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod1.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitte_lod1.msh",
+									name = "jay_mesh_haimmrs_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod1.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod1.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod1.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod1.msh",
+											name = "a5",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_gestell_lod1.msh",
+											name = "bandion_mesh_habikks340_gestell",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod1.msh",
+											name = "a6",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0199999995529651641845703125, 1, },
+								},
+							},
+							name = "Wagen 2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.02999999932944774627685546875, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod2.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod2.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontAdd_lod2.msh",
+									name = "jay_mesh_haimmrs_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontStreben_lod2.msh",
+									name = "jay_mesh_haimmrs_frontStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod2.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod2.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_puffer_lod2.msh",
+									name = "jay_mesh_haimmrs_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_buhne_lod2.msh",
+									name = "jay_mesh_haimmrs_buhne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_tritte_lod2.msh",
+									name = "jay_mesh_haimmrs_tritte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod1.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitte_lod2.msh",
+									name = "jay_mesh_haimmrs_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod2.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod2.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod2.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod2.msh",
+											name = "a1",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod2.msh",
+											name = "a2",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0500000007450580596923828125, 1, },
+								},
+							},
+							name = "Wagen 1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "Mitte",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 9.63000011444091796875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod2.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod2.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontAdd_lod2.msh",
+									name = "jay_mesh_haimmrs_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_frontStreben_lod2.msh",
+									name = "jay_mesh_haimmrs_frontStreben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod2.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod2.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_puffer_lod2.msh",
+									name = "jay_mesh_haimmrs_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod1.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitte_lod2.msh",
+									name = "jay_mesh_haimmrs_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod2.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod2.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod2.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod2.msh",
+											name = "a5",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod2.msh",
+											name = "a6",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0199999995529651641845703125, 1, },
+								},
+							},
+							name = "Wagen 2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.02999999932944774627685546875, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 700,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod3.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod3.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod3.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod3.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod3.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_mitte_lod3.msh",
+									name = "jay_mesh_haimmrs_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod3.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod3.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod3.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod3.msh",
+											name = "a1",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod3.msh",
+											name = "a2",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0500000007450580596923828125, 1, },
+								},
+							},
+							name = "Wagen 1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod3.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod3.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "Mitte",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 9.63000011444091796875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_untersatz_lod3.msh",
+									name = "jay_mesh_haimmrs_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_front_lod3.msh",
+									name = "jay_mesh_haimmrs_front",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door01.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door01_lod3.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_bufferFront_lod3.msh",
+									name = "jay_mesh_haimmrs_bufferFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_dach_lod3.msh",
+									name = "jay_mesh_haimmrs_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_haimmrs_door03.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door03_lod3.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door04_lod3.msh",
+									name = "jay_mesh_haimmrs_door04",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Haimmrs_vw90_sauber.mtl", },
+									mesh = "msh/jay_mesh_haimmrs_door02_lod3.msh",
+									name = "jay_mesh_haimmrs_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									children = {
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad_lod3.msh",
+											name = "a5",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+										{ 
+											materials = { "mat/OpelDG.mtl", },
+											mesh = "msh/bandion_mesh_habikks340_rad2_lod3.msh",
+											name = "a6",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+										},
+									},
+									name = "opel_DG",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.4699999988079071044921875, 0, 0.0199999995529651641845703125, 1, },
+								},
+							},
+							name = "Wagen 2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.02999999932944774627685546875, 1, },
+				},
+				visibleFrom = 700,
+				visibleFrom = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1989,
+				yearTo = 1999,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("Haimmrs_desc"),
+				name = _("Haimmrs (VW/Audi)  [1989]"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 27.700000762939453125,
+				weightEmpty = 34000,
+				weightMaxPayload = 0,
+			},
+			loadIndicator = { 
+				configs = { 
+					bay_0 = { 
+						cargoBay = { 
+							bbMax = { -0.800000011920928955078125, 1.25, 1.2000000476837158203125, },
+							bbMin = { -11.1499996185302734375, -1.0499999523162841796875, 0.800000011920928955078125, },
+							cargoFormats = { "SMALL", },
+							childId = "Wagen 1",
+							gridSize = { 6, 2, },
+							sizePolicy = "STRETCH",
+							type = "DISCRETE",
+						},
+					},
+					bay_1 = { 
+						cargoBay = { 
+							bbMax = { -0.800000011920928955078125, 1.25, 1.2000000476837158203125, },
+							bbMin = { -11.1499996185302734375, -1.0499999523162841796875, 0.800000011920928955078125, },
+							cargoFormats = { "SMALL", },
+							childId = "jay_mesh_haimmrs_untersatz",
+							gridSize = { 6, 2, },
+							sizePolicy = "STRETCH",
+							type = "DISCRETE",
+						},
+					},
+				},
+				slots = { },
+			},
+			maintenance = { 
+				lifespan = 28000,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_schwer.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 3,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 64,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", "GOODS", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/planks/planks.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", "::/cargos/steel/steel.cargo", "::/cargos/beverages/beverages.cargo", "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fish/fish.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/meat/meat.cargo", "::/cargos/paper/paper.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/vehicles/vehicles.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "bay_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 64,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", "GOODS", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/planks/planks.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", "::/cargos/steel/steel.cargo", "::/cargos/beverages/beverages.cargo", "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fish/fish.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/meat/meat.cargo", "::/cargos/paper/paper.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/vehicles/vehicles.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "bay_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_autotransportwagen_gedeckt.mdl",
+				loadSpeed = 2,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

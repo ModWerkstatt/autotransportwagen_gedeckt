@@ -1,0 +1,1055 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 13.590000152587890625, 1.65191709995269775390625, 4.27514743804931640625, },
+			bbMin = { -13.590000152587890625, -1.6634838581085205078125, 0.108735196292400360107421875, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.79551219940185546875, 1.65770053863525390625, 2.0832061767578125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.52, -0.73, 1.44, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.52, 0.73, 1.44, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontDoor_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_frontDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerAussen_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_offnerAussen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerOben_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_offnerOben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerMitte_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_offnerMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_griffeDoor_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_griffeDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontStuff_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_frontStuff",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_accecsFront_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_accecsFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_puffer_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_datenRaster_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_datenRaster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_pufferDruber_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_pufferDruber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_tritt_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_tritt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_hbremse_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_hbremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_dach_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_griffStange_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_griffStange",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_heber_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_heber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_accecsSeite_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_accecsSeite",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seilhaken_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_box_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_box",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_bogen_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_bogen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillen_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_rillen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_hebel_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_hebel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_kupplung_lod0.msh",
+									name = "jay_mesh_laaiikklps_kupplung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillenDach_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_rillenDach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod0.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.10999999940395355224609375, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod0.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.31000041961669921875, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0,  -6.52, -0.73, 1.44, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.52, 0.73, 1.44, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontDoor_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_frontDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerAussen_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_offnerAussen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerOben_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_offnerOben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerMitte_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_offnerMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_griffeDoor_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_griffeDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontStuff_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_frontStuff",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_accecsFront_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_accecsFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_puffer_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_datenRaster_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_datenRaster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_pufferDruber_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_pufferDruber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_tritt_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_tritt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_hbremse_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_hbremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_dach_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_griffStange_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_griffStange",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_heber_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_heber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_accecsSeite_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_accecsSeite",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seilhaken_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_box_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_box",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_bogen_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_bogen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillen_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_rillen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_kupplung_lod0.msh",
+									name = "jay_mesh_laaiikklps_kupplung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_hebel_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_hebel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillenDach_lod0.msh",
+									name = "jay_mesh_Hccrrs5870_rillenDach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod0.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.10999999940395355224609375, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod0.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.31000041961669921875, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, -0.0000003894143674187944270670413970947265625, 0, 0, 0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody.001_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontDoor_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_frontDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerOben_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_offnerOben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerMitte_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_offnerMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontStuff_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_frontStuff",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_accecsFront_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_accecsFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_puffer_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_pufferDruber_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_pufferDruber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_hbremse_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_hbremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_dach_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_griffStange_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_griffStange",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_heber_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_heber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_bogen_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_bogen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillen_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_rillen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillenDach_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_rillenDach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod1.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.10999999940395355224609375, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod1.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.31000041961669921875, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, -0.0000003894143674187944270670413970947265625, 0, 0, 0.0000003894143674187944270670413970947265625, 1, 0, 0, 0, 0, 1, 0, -6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody.001_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontDoor_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_frontDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerOben_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_offnerOben",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_offnerMitte_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_offnerMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontStuff_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_frontStuff",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_accecsFront_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_accecsFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_puffer_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_pufferDruber_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_pufferDruber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_hbremse_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_hbremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_dach_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_griffStange_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_griffStange",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_heber_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_heber",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_bogen_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_bogen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillen_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_rillen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_rillenDach_lod1.msh",
+									name = "jay_mesh_Hccrrs5870_rillenDach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod1.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.10999999940395355224609375, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_lod1.msh",
+									name = "jay_mesh_autoGestellKlein",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 8.31000041961669921875, 0, -0.0199999995529651641845703125, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, -0.0000003894143674187944270670413970947265625, 0, 0, 0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody.001_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontDoor_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_frontDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_puffer_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_dach_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_bogen_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_bogen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, -0.0000003894143674187944270670413970947265625, 0, 0, 0.0000003894143674187944270670413970947265625, 1, 0, 0, 0, 0, 1, 0, -6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody.001_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_frontDoor_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_frontDoor",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_puffer_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_dach_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_bogen_lod2.msh",
+									name = "jay_mesh_Hccrrs5870_bogen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_autoGestellKlein_w1_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, -0.0000003894143674187944270670413970947265625, 0, 0, 0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 700,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody.001_lod3.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod3.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod3.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, -0.0000003894143674187944270670413970947265625, 0, 0, 0.0000003894143674187944270670413970947265625, 1, 0, 0, 0, 0, 1, 0, -6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_unterbody.001_lod3.msh",
+									name = "jay_mesh_Hccrrs5870_unterbody",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_seitenVerkleidung_lod3.msh",
+									name = "jay_mesh_Hccrrs5870_seitenVerkleidung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Hccrss5870.mtl", },
+									mesh = "msh/jay_mesh_Hccrrs5870_ziehharmonika_lod3.msh",
+									name = "jay_mesh_Hccrrs5870_ziehharmonika",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.090000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+								{ 
+									materials = { "mat/Auto_Gestell_klein.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.340000152587890625, 0.00361471227370202541351318359375, 0.38999998569488525390625, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, -0.0000003894143674187944270670413970947265625, 0, 0, 0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 6.519999980926513671875, 0, 0.0599999986588954925537109375, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 700,
+				visibleFrom = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2015,
+				yearTo = -1,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("hccrrs5870_desc"),
+				name = _("Hccrrs 5870 (ARS Altmann) [2013]"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 33.299999237060546875,
+				weightEmpty = 36000,
+				weightMaxPayload = 0,
+			},
+			maintenance = { 
+				lifespan = 13000,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_schwer.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 3,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 104,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/machines/machines.cargo", "::/cargos/planks/planks.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", "::/cargos/steel/steel.cargo",  },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_autotransportwagen_gedeckt.mdl",
+				loadSpeed = 4,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

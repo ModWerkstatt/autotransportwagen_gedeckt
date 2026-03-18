@@ -1,0 +1,22 @@
+{
+    "name": "Car industry H-Wagons",
+    "summary": "Special covered freight car for the automotive industry.",
+    "description": "In recent years, rail-based car transport has undergone a significant transformation due to the automotive industry’s increased use of just-in-time production. The wide variety of supplier parts to be transported required new logistical solutions, which were implemented through sophisticated logistics chains and specialized railcars. Large-capacity sliding-wall cars with lockable options have become the standard. These allow for efficient loading with forklifts or cranes and offer versatile usability, particularly for the automotive industry. These large-capacity cars can transport a wide variety of goods, from pallets to complete car bodies.",
+    "localization" : {
+        "de": {
+            "name": "H-Wagen der Autoindustrie",
+            "summary": "Spezieller gedeckter Güterwagen für die Autoindustrie.",
+            "description": "In der jüngeren Zeit haben schienengebundene Autotransporte aufgrund der verstärkten Just-in-time-Produktion der Automobilindustrie einen signifikanten Wandel erlebt. Die Vielfalt der zu transportierenden Zulieferteile erforderte neue logistische Lösungen, die durch ausgefeilte Logistikketten und spezialisierte Waggons realisiert wurden. Großräumige Schiebewandwagen mit verschließbaren Optionen sind dabei zum Standard geworden. Diese ermöglichen das effiziente Beladen mit Gabelstaplern oder Kränen und bieten vielseitige Verwendbarkeit, insbesondere für die Kfz-Industrie. Diese Großraumwagen können eine Vielzahl von Gütern, von Paletten bis zu kompletten Rohkarossen, transportieren."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/slps725"
+}

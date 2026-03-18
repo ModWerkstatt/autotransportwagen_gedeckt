@@ -1,0 +1,824 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 12.67438411712646484375, 1.51618349552154541015625, 4.35953998565673828125, },
+			bbMin = { -12.67438411712646484375, -1.51618349552154541015625, -0.1199460923671722412109375, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 12.67438411712646484375, 1.51618349552154541015625, 2.2397429943084716796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_vorne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.05, -0.85, 1.59, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_vorne2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.05, 0.85, 1.59, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_hinten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 12.05, -0.85, 1.59, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_hinten2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 12.05, 0.85, 1.59, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_untersatz_lod0.msh",
+							name = "jay_mesh_habikks340_untersatz",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_front_lod0.msh",
+							name = "jay_mesh_habikks340_front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_dachleiste_lod0.msh",
+							name = "jay_mesh_habikks340_dachleiste",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_stangenAdd_lod0.msh",
+							name = "jay_mesh_habikks340_stangenAdd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_buhne_lod0.msh",
+							name = "jay_mesh_habikks340_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_gelander_lod0.msh",
+							name = "jay_mesh_habikks340_gelander",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_puffer_lod0.msh",
+							name = "jay_mesh_habikks340_puffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/jay_mesh_habikks340_door01.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/jay_mesh_habikks340_door01.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door01_lod0.msh",
+							name = "d1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door02_lod0.msh",
+							name = "jay_mesh_habikks340_door02",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_bremse_lod0.msh",
+							name = "jay_mesh_habikks340_bremse",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_griffstangen_lod0.msh",
+							name = "jay_mesh_habikks340_griffstangen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_kupplung_lod0.msh",
+							name = "jay_mesh_habikks340_kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_boden_lod0.msh",
+							name = "jay_mesh_habikks340_boden",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_kegp_lod0.msh",
+							name = "jay_mesh_habikks340_kegp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_seilhaken_lod0.msh",
+							name = "jay_mesh_habikks340_seilhaken",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_mitten_lod0.msh",
+							name = "jay_mesh_habikks340_mitten",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door03_lod0.msh",
+							name = "jay_mesh_habikks340_door03",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/jay_mesh_habikks340_door04.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/jay_mesh_habikks340_door04.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door04_lod0.msh",
+							name = "d2",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door05_lod0.msh",
+							name = "jay_mesh_habikks340_door05",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door06_lod0.msh",
+							name = "jay_mesh_habikks340_door06",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod0.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.0199999995529651641845703125, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod0.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { -1, -0.0000000874227765734758577309548854827880859375, 0, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0.0199999995529651641845703125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.0500000007450580596923828125, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_untersatz_lod1.msh",
+							name = "jay_mesh_habikks340_untersatz",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_front_lod1.msh",
+							name = "jay_mesh_habikks340_front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_dachleiste_lod1.msh",
+							name = "jay_mesh_habikks340_dachleiste",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_stangenAdd_lod1.msh",
+							name = "jay_mesh_habikks340_stangenAdd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_buhne_lod1.msh",
+							name = "jay_mesh_habikks340_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_gelander_lod1.msh",
+							name = "jay_mesh_habikks340_gelander",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_puffer_lod1.msh",
+							name = "jay_mesh_habikks340_puffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/jay_mesh_habikks340_door01.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/jay_mesh_habikks340_door01.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door01_lod1.msh",
+							name = "d1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door02_lod1.msh",
+							name = "jay_mesh_habikks340_door02",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_boden_lod1.msh",
+							name = "jay_mesh_habikks340_boden",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_kegp_lod1.msh",
+							name = "jay_mesh_habikks340_kegp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_mitten_lod1.msh",
+							name = "jay_mesh_habikks340_mitten",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door03_lod1.msh",
+							name = "jay_mesh_habikks340_door03",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/jay_mesh_habikks340_door04.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/jay_mesh_habikks340_door04.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door04_lod1.msh",
+							name = "d2",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door05_lod1.msh",
+							name = "jay_mesh_habikks340_door05",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door06_lod1.msh",
+							name = "jay_mesh_habikks340_door06",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod1.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.0199999995529651641845703125, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod1.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { -1, -0.0000000874227765734758577309548854827880859375, 0, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0.0199999995529651641845703125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.0500000007450580596923828125, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_untersatz_lod2.msh",
+							name = "jay_mesh_habikks340_untersatz",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_front_lod2.msh",
+							name = "jay_mesh_habikks340_front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_dachleiste_lod2.msh",
+							name = "jay_mesh_habikks340_dachleiste",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_buhne_lod2.msh",
+							name = "jay_mesh_habikks340_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_gelander_lod2.msh",
+							name = "jay_mesh_habikks340_gelander",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_puffer_lod2.msh",
+							name = "jay_mesh_habikks340_puffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/jay_mesh_habikks340_door01.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/jay_mesh_habikks340_door01.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door01_lod2.msh",
+							name = "d1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door02_lod2.msh",
+							name = "jay_mesh_habikks340_door02",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_boden_lod2.msh",
+							name = "jay_mesh_habikks340_boden",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_mitten_lod2.msh",
+							name = "jay_mesh_habikks340_mitten",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door03_lod2.msh",
+							name = "jay_mesh_habikks340_door03",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/jay_mesh_habikks340_door04.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/jay_mesh_habikks340_door04.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door04_lod2.msh",
+							name = "d2",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door05_lod2.msh",
+							name = "jay_mesh_habikks340_door05",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_door06_lod2.msh",
+							name = "jay_mesh_habikks340_door06",
+							transf = { -1, 0.0000003894143674187944270670413970947265625, 0, 0, -0.0000003894143674187944270670413970947265625, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod2.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod2.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_gestell_lod2.msh",
+									name = "bandion_mesh_habikks340_gestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.0500000007450580596923828125, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 700,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_front_lod3.msh",
+							name = "jay_mesh_habikks340_front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Habikks340_opel.mtl", },
+							mesh = "msh/jay_mesh_habikks340_buhne_lod3.msh",
+							name = "jay_mesh_habikks340_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod3.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod3.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad_lod3.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.54712009429931640625, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+								{ 
+									materials = { "mat/OpelDG.mtl", },
+									mesh = "msh/bandion_mesh_habikks340_rad2_lod3.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.730010986328125, -0.0000002630787321322713978588581085205078125, 0.30714952945709228515625, 1, },
+								},
+							},
+							name = "opel_DG",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 700,
+				visibleFrom = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1990,
+				yearTo = 2000,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				name = _("Habbiks 340 (Opel) [1990]"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 27.700000762939453125,
+				weightEmpty = 32000,
+				weightMaxPayload = 0,
+			},
+			loadIndicator = { 
+				configs = { 
+					bay_0 = { 
+						cargoBay = { 
+							bbMax = { 11.19999980926513671875, 1.21000003814697265625, 3.400000095367431640625, },
+							bbMin = { -11.19999980926513671875, -1.21000003814697265625, 0.839999973773956298828125, },
+							cargoFormats = { "SMALL", },
+							childId = "RootNode",
+							gridSize = { 8, 1, },
+							sizePolicy = "STRETCH",
+							type = "DISCRETE",
+						},
+					},
+				},
+				slots = { },
+			},
+			maintenance = { 
+				lifespan = 28000,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "bandion_mesh_habikks340_rad", "bandion_mesh_habikks340_rad2", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_schwer.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 3,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 112,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", "GOODS", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/planks/planks.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", "::/cargos/steel/steel.cargo", "::/cargos/beverages/beverages.cargo", "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fish/fish.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/meat/meat.cargo", "::/cargos/paper/paper.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/vehicles/vehicles.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "bay_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_autotransportwagen_gedeckt.mdl",
+				loadSpeed = 2,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

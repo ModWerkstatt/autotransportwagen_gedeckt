@@ -1,0 +1,1590 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 13.32958984375, 1.5265619754791259765625, 3.8546626567840576171875, },
+			bbMin = { -13.32958984375, -1.5265619754791259765625, -0.04297602176666259765625, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.68074321746826171875, 1.5265619754791259765625, 1.9488193988800048828125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.38, -1.15, 1.54, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.38, 1.15, 1.54, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod0.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4699999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4699999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_laufwerkB_lod0.msh",
+									name = "jay_mesh_laaiikklps_laufwerkB",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.02999999932944774627685546875, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod0.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod0.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_sprengwerk_lod0.msh",
+									name = "jay_mesh_laaiikklps_sprengwerk",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildFront_lod0.msh",
+									name = "jay_mesh_laaiikklps_schildFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_untenRum_lod0.msh",
+									name = "jay_mesh_laaiikklps_untenRum",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_kupplung_lod0.msh",
+									name = "jay_mesh_laaiikklps_kupplung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_puffer_lod0.msh",
+									name = "jay_mesh_laaiikklps_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_datenraster_lod0.msh",
+									name = "jay_mesh_laaiikklps_datenraster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_frontAdd_lod0.msh",
+									name = "jay_mesh_laaiikklps_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod0.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_zusatz_lod0.msh",
+									name = "jay_mesh_laaiikklps_zusatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_mitte_lod0.msh",
+									name = "jay_mesh_laaiikklps_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_tritte_lod0.msh",
+									name = "jay_mesh_laaiikklps_tritte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_stangenFront_lod0.msh",
+									name = "jay_mesh_laaiikklps_stangenFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_trittMitte_lod0.msh",
+									name = "jay_mesh_laaiikklps_trittMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_seilhaken_lod0.msh",
+									name = "jay_mesh_laaiikklps_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_griffstangen_lod0.msh",
+									name = "jay_mesh_laaiikklps_griffstangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offner_lod0.msh",
+									name = "jay_mesh_laaiikklps_offner",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildBack_lod0.msh",
+									name = "jay_mesh_laaiikklps_schildBack",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_kupplungMitte_lod0.msh",
+									name = "jay_mesh_laaiikklps_kupplungMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_hebel_lod0.msh",
+									name = "jay_mesh_laaiikklps_hebel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod0.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod0.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod0.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offnerAnim_lod0.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.313939571380615234375, -1.32206690311431884765625, 1.29046380519866943359375, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55000019073486328125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0,  -6.38, -1.15, 1.54, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.38, 1.15, 1.54, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod0.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4699999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4699999988079071044921875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_laufwerkB_lod0.msh",
+									name = "jay_mesh_laaiikklps_laufwerkB",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0.00999999977648258209228515625, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod0.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod0.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_sprengwerk_lod0.msh",
+									name = "jay_mesh_laaiikklps_sprengwerk",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildFront_lod0.msh",
+									name = "jay_mesh_laaiikklps_schildFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_untenRum_lod0.msh",
+									name = "jay_mesh_laaiikklps_untenRum",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_kupplung_lod0.msh",
+									name = "jay_mesh_laaiikklps_kupplung",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_puffer_lod0.msh",
+									name = "jay_mesh_laaiikklps_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_datenraster_lod0.msh",
+									name = "jay_mesh_laaiikklps_datenraster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_frontAdd_lod0.msh",
+									name = "jay_mesh_laaiikklps_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod0.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_zusatz_lod0.msh",
+									name = "jay_mesh_laaiikklps_zusatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_mitte_lod0.msh",
+									name = "jay_mesh_laaiikklps_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_tritte_lod0.msh",
+									name = "jay_mesh_laaiikklps_tritte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_stangenFront_lod0.msh",
+									name = "jay_mesh_laaiikklps_stangenFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_trittMitte_lod0.msh",
+									name = "jay_mesh_laaiikklps_trittMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_seilhaken_lod0.msh",
+									name = "jay_mesh_laaiikklps_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_griffstangen_lod0.msh",
+									name = "jay_mesh_laaiikklps_griffstangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offner_lod0.msh",
+									name = "jay_mesh_laaiikklps_offner",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildBack_lod0.msh",
+									name = "jay_mesh_laaiikklps_schildBack",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_kupplungMitte_lod0.msh",
+									name = "jay_mesh_laaiikklps_kupplungMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_hebel_lod0.msh",
+									name = "jay_mesh_laaiikklps_hebel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod0.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod0.msh",
+									name = "d5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod0.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offnerAnim_lod0.msh",
+									name = "d6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.313939571380615234375, -1.32206690311431884765625, 1.29046380519866943359375, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.55000019073486328125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.02999999932944774627685546875, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod1.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_laufwerkB_lod1.msh",
+									name = "jay_mesh_laaiikklps_laufwerkB",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod1.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod1.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_sprengwerk_lod1.msh",
+									name = "jay_mesh_laaiikklps_sprengwerk",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildFront_lod1.msh",
+									name = "jay_mesh_laaiikklps_schildFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_untenRum_lod1.msh",
+									name = "jay_mesh_laaiikklps_untenRum",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_puffer_lod1.msh",
+									name = "jay_mesh_laaiikklps_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_frontAdd_lod1.msh",
+									name = "jay_mesh_laaiikklps_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod1.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_zusatz_lod1.msh",
+									name = "jay_mesh_laaiikklps_zusatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_mitte_lod1.msh",
+									name = "jay_mesh_laaiikklps_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_tritte_lod1.msh",
+									name = "jay_mesh_laaiikklps_tritte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_stangenFront_lod1.msh",
+									name = "jay_mesh_laaiikklps_stangenFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_trittMitte_lod1.msh",
+									name = "jay_mesh_laaiikklps_trittMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_seilhaken_lod1.msh",
+									name = "jay_mesh_laaiikklps_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_griffstangen_lod1.msh",
+									name = "jay_mesh_laaiikklps_griffstangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offner_lod1.msh",
+									name = "jay_mesh_laaiikklps_offner",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildBack_lod1.msh",
+									name = "jay_mesh_laaiikklps_schildBack",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_kupplungMitte_lod1.msh",
+									name = "jay_mesh_laaiikklps_kupplungMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod1.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod1.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod1.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offnerAnim_lod1.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.313939571380615234375, -1.32206690311431884765625, 1.29046380519866943359375, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55000019073486328125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod1.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_laufwerkB_lod1.msh",
+									name = "jay_mesh_laaiikklps_laufwerkB",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod1.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod1.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_sprengwerk_lod1.msh",
+									name = "jay_mesh_laaiikklps_sprengwerk",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildFront_lod1.msh",
+									name = "jay_mesh_laaiikklps_schildFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_untenRum_lod1.msh",
+									name = "jay_mesh_laaiikklps_untenRum",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_puffer_lod1.msh",
+									name = "jay_mesh_laaiikklps_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_frontAdd_lod1.msh",
+									name = "jay_mesh_laaiikklps_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod1.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_zusatz_lod1.msh",
+									name = "jay_mesh_laaiikklps_zusatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_mitte_lod1.msh",
+									name = "jay_mesh_laaiikklps_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_tritte_lod1.msh",
+									name = "jay_mesh_laaiikklps_tritte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_stangenFront_lod1.msh",
+									name = "jay_mesh_laaiikklps_stangenFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_trittMitte_lod1.msh",
+									name = "jay_mesh_laaiikklps_trittMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_seilhaken_lod1.msh",
+									name = "jay_mesh_laaiikklps_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_griffstangen_lod1.msh",
+									name = "jay_mesh_laaiikklps_griffstangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offner_lod1.msh",
+									name = "jay_mesh_laaiikklps_offner",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildBack_lod1.msh",
+									name = "jay_mesh_laaiikklps_schildBack",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_kupplungMitte_lod1.msh",
+									name = "jay_mesh_laaiikklps_kupplungMitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod1.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod1.msh",
+									name = "d5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod1.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_offnerAnim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_offnerAnim_lod1.msh",
+									name = "d6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.313939571380615234375, -1.32206690311431884765625, 1.29046380519866943359375, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.55000019073486328125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.02999999932944774627685546875, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod2.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod2.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_laufwerkB_lod2.msh",
+									name = "jay_mesh_laaiikklps_laufwerkB",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod2.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod2.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_sprengwerk_lod2.msh",
+									name = "jay_mesh_laaiikklps_sprengwerk",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildFront_lod2.msh",
+									name = "jay_mesh_laaiikklps_schildFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_puffer_lod2.msh",
+									name = "jay_mesh_laaiikklps_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_frontAdd_lod2.msh",
+									name = "jay_mesh_laaiikklps_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod2.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_mitte_lod2.msh",
+									name = "jay_mesh_laaiikklps_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_seilhaken_lod2.msh",
+									name = "jay_mesh_laaiikklps_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildBack_lod2.msh",
+									name = "jay_mesh_laaiikklps_schildBack",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod2.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod2.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod2.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.55000019073486328125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod2.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_laufwerkB_lod2.msh",
+									name = "jay_mesh_laaiikklps_laufwerkB",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod2.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod2.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_sprengwerk_lod2.msh",
+									name = "jay_mesh_laaiikklps_sprengwerk",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildFront_lod2.msh",
+									name = "jay_mesh_laaiikklps_schildFront",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_puffer_lod2.msh",
+									name = "jay_mesh_laaiikklps_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_frontAdd_lod2.msh",
+									name = "jay_mesh_laaiikklps_frontAdd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod2.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_mitte_lod2.msh",
+									name = "jay_mesh_laaiikklps_mitte",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_seilhaken_lod2.msh",
+									name = "jay_mesh_laaiikklps_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_schildBack_lod2.msh",
+									name = "jay_mesh_laaiikklps_schildBack",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod2.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod2.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod2.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55000019073486328125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -1, -0.0000000874227765734758577309548854827880859375, 0, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, 0, 0, 1, 0, 0, 0, -0.02999999932944774627685546875, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 700,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod3.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod3.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod3.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod3.msh",
+									name = "d1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod3.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod3.msh",
+									name = "d2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod3.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.55000019073486328125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_body_lod3.msh",
+									name = "jay_mesh_laaiikklps_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Gestell_alt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_w1_lod3.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5370330810546875, 0.00363828800618648529052734375, 0.4428803622722625732421875, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_dach_lod3.msh",
+									name = "jay_mesh_laaiikklps_dach",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_unterboden_lod3.msh",
+									name = "jay_mesh_laaiikklps_unterboden",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_left = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_left = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01Anim_lod3.msh",
+									name = "d3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door01_lod3.msh",
+									name = "jay_mesh_laaiikklps_door01",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										close_doors_right = { 
+											forward = false,
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+										open_doors_right = { 
+											params = { 
+												id = "ani/jay_mesh_laaiikklps_door01Anim2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02Anim_lod3.msh",
+									name = "d4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/Laaiikklps_twaAlt.mtl", },
+									mesh = "msh/jay_mesh_laaiikklps_door02_lod3.msh",
+									name = "jay_mesh_laaiikklps_door02",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "RootNode",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55000019073486328125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 700,
+				visibleFrom = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1994,
+				yearTo = 2018,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("laaiikklps_desc"),
+				name = _("Laaiikklps-ESP (TWA) [1994]"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 33.299999237060546875,
+				weightEmpty = 32000,
+				weightMaxPayload = 0,
+			},
+			loadIndicator = { 
+				configs = { 
+					bay_0 = { 
+						cargoBay = { 
+							bbMax = { 6, 1.25, 1.35000002384185791015625, },
+							bbMin = { -6, -1.25, 1.25, },
+							cargoFormats = { "SMALL", },
+							childId = "RootNode",
+							gridSize = { 6, 2, },
+							sizePolicy = "STRETCH",
+							type = "DISCRETE",
+						},
+					},
+					bay_2 = { 
+						cargoBay = { 
+							bbMax = { 6, 1.25, 1.75, },
+							bbMin = { -6, -1.25, 1.25, },
+							cargoFormats = { "SMALL", },
+							childId = "RootNode",
+							gridSize = { 6, 2, },
+							sizePolicy = "STRETCH",
+							type = "DISCRETE",
+						},
+					},
+				},
+				slots = { },
+			},
+			maintenance = { 
+				lifespan = 20000,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_leicht.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 3,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 64,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", "GOODS", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/planks/planks.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", "::/cargos/steel/steel.cargo", "::/cargos/beverages/beverages.cargo", "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fish/fish.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/meat/meat.cargo", "::/cargos/paper/paper.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/vehicles/vehicles.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "bay_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 64,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", "GOODS", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/planks/planks.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", "::/cargos/steel/steel.cargo", "::/cargos/beverages/beverages.cargo", "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fish/fish.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/meat/meat.cargo", "::/cargos/paper/paper.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/vegetables/vegetables.cargo", "::/cargos/vehicles/vehicles.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "bay_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_autotransportwagen_gedeckt.mdl",
+				loadSpeed = 2,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end
