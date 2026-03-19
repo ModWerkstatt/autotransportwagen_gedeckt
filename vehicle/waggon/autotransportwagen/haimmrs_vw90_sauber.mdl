@@ -1388,8 +1388,8 @@ return {
 				engines = { },
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 27.700000762939453125,
-				weightEmpty = 34000,
-				weightMaxPayload = 0,
+				weightEmpty = 33250,
+				weightMaxPayload = 50000,
 			},
 			loadIndicator = { 
 				configs = { 

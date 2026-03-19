@@ -1022,8 +1022,8 @@ return {
 				engines = { },
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 33.299999237060546875,
-				weightEmpty = 36000,
-				weightMaxPayload = 0,
+				weightEmpty = 34100,
+				weightMaxPayload = 25000,
 			},
 			maintenance = { 
 				lifespan = 13000,
