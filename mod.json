@@ -15,7 +15,7 @@
         }
     ],
     "incompatibilities": null,
-    "modId": "mw_autostransportwagen_gedeckt",
+    "modId": "mw_autotransportwagen_gedeckt",
     "params": null,
     "postRunScript": {
         "fileName": ""
